@@ -1,0 +1,13 @@
+BATTLE PC VS USER
+The game is written in such a way that it is impossible to win against pc.
+The code has 3 main function pc_win, user_check & pc_logical_move.
+
+pc_win= It checks whether there is a subsequent move which can make pc win the game.
+If there exit such a move then pc wins and the game is over
+otherwise,user_check function is called.
+
+user_check= Does there exit a move in which user can win.If there exist then pc will make its move
+such that user cannot win else pc_logical_move will be called.
+
+pc_logical_move=It decides the move which increases win chances.
+   
